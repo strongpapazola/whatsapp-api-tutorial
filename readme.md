@@ -1,3 +1,9 @@
+#version Info
+```root@bot5:~/whatsapp-api-tutorial# npm -v
+6.14.17
+root@bot5:~/whatsapp-api-tutorial# node -v
+v14.20.0```
+
 # Whatsapp API Tutorial
 
 Hi, this is the implementation example of <a href="https://github.com/pedroslopez/whatsapp-web.js">whatsapp-web.js</a>

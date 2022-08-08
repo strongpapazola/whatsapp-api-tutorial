@@ -1,3 +1,8 @@
+#run
+docker run -it --rm -p 8000:8000 --name wabintang -v "/root/whatsapp-data/bintang":"/app/.wwebjs_auth" strongpapazola/ubuntu:whatsapp-api
+docker run -it --rm -p 8000:8000 --name wabintang -v strongpapazola/ubuntu:whatsapp-api
+
+and access the web by browser for autehticated
 #version Info
 ```root@bot5:~/whatsapp-api-tutorial# npm -v
 6.14.17

@@ -1,6 +1,7 @@
 #run
 docker run -it --rm -p 8000:8000 --name wabintang -v "/root/whatsapp-data/bintang":"/app/.wwebjs_auth" strongpapazola/ubuntu:whatsapp-api
 docker run -it --rm -p 8000:8000 --name wabintang -v strongpapazola/ubuntu:whatsapp-api
+docker run -d --restart always -p 8000:8000 --name wabintang -v "/root/whatsapp-data/bintang":"/app/.wwebjs_auth" strongpapazola/ubuntu:whatsapp-api
 
 and access the web by browser for autehticated
 #version Info

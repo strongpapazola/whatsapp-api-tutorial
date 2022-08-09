@@ -63,14 +63,17 @@
 
 			socket.on('qr', function(src) {
 				$('#qrcode').attr('src', src);
+        console.log(src)
 				$('#qrcode').show();
 			});
 
 			socket.on('ready', function(data) {
+        console.log(data)
 				$('#qrcode').hide();
 			});
 
 			socket.on('authenticated', function(data) {
+        console.log(data)
 				$('#qrcode').hide();
 			});
 		});
